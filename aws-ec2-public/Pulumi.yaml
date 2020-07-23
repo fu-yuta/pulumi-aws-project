@@ -1,0 +1,4 @@
+name: aws-ec2-public
+runtime:
+  name: python
+
