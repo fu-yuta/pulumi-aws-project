@@ -1,0 +1,9 @@
+#!/bin/bash
+
+yum install docker -y
+
+service docker start
+
+docker pull wordpress
+
+docker run -p 80:80 -d wordpress
